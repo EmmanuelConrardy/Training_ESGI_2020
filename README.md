@@ -145,11 +145,11 @@ Use case -> Health check, Documentations, Passage d'une mise à jour,...
 ### Proxy
 Il parle de lui même de base c'est un passe plat, je l'utilise souvent sur les connecteurs externes de mes applications, pour :
 
-Du cache -> pour dépendre le moins possible d'api tiers
-Des logs -> si il y a un problème de communication, une exception je peux comprendre rapidement
-Des autorisations -> L'accès à ces api tiers est peut être strict ? Es-tu identifier ?
-Du monitoring -> Temps d'exécution de la requête
-De Lazy load -> Accès à une image, un connecteur coûteux en ressource. 
+- Du cache -> pour dépendre le moins possible d'api tiers
+- Des logs -> si il y a un problème de communication, une exception je peux comprendre rapidement
+- Des autorisations -> L'accès à ces api tiers est peut être strict ? Es-tu identifier ?
+- Du monitoring -> Temps d'exécution de la requête
+- De Lazy load -> Accès à une image, un connecteur coûteux en ressource. 
 
 Tout et n'importe quoi tant que ça se passe avant et/ou après l'appel.
 
