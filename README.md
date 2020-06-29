@@ -198,3 +198,10 @@ propriétés "intrinsèques" et la "position" en propriété "extrinsèque" qui 
 
 C'est une sorte de mélange entre objet pool et prototype, l'un pour la réutilisation d'instance et l'autre pour l'aspect instance à enrichir.
 Au final on s'en sort avec "une instance de balle" et un "tableau de positions" ce qui prend moins de mémoire que 10 instances de balles.
+
+### Chain of responsability
+Il permet à une requête d'être receptionnée par plusieurs receveurs. 
+Nous allons définir une chaine de reception et y faire passer la requête.
+Quand un élément de la chaine traite la demande on obtient le résultat sinon on passe à l'élément suivant.
+Si on arrive au bout de la chaine la requête n'est pas traiter. Cela permet d'ecapsuler les comportement de traitement et de découpler l'objet requête avec les objets qui vont faire le traitement. c'est très extensible et respecte le principe open/close et single responsability.
+
